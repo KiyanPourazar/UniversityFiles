@@ -1,0 +1,5 @@
+set -tmpdir "Z:/A09/xst/projnav.tmp"
+set -xsthdpdir "Z:/A09/xst"
+elaborate
+-ifn and8bit.prj
+-ifmt mixed

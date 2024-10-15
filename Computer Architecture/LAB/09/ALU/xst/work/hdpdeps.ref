@@ -1,0 +1,59 @@
+V3 44
+FL C:/Users/Admin/Desktop/ALU/ALU.vhd 2024/05/20.19:30:47 P.20131013
+EN work/ALU 1716217636 FL C:/Users/Admin/Desktop/ALU/ALU.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/ALU/Behavioral 1716217637 \
+      FL C:/Users/Admin/Desktop/ALU/ALU.vhd EN work/ALU 1716217636 CP AND_8bit \
+      CP OR_8bit CP XOR_8bit CP AddSub CP Multiplier_8bit CP division
+FL C:/Users/Admin/Desktop/ALU/AND_8bit.vhd 2024/05/20.18:20:21 P.20131013
+EN work/AND_8bit 1716217624 FL C:/Users/Admin/Desktop/ALU/AND_8bit.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/AND_8bit/Structural 1716217625 \
+      FL C:/Users/Admin/Desktop/ALU/AND_8bit.vhd EN work/AND_8bit 1716217624
+FL C:/Users/Admin/Desktop/ALU/dfdf.vhd 2024/05/20.18:20:21 P.20131013
+EN work/full_adder_8bit 1716217622 FL C:/Users/Admin/Desktop/ALU/dfdf.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/full_adder_8bit/Structural 1716217623 \
+      FL C:/Users/Admin/Desktop/ALU/dfdf.vhd EN work/full_adder_8bit 1716217622 \
+      CP full_adder_1bit
+FL C:/Users/Admin/Desktop/ALU/Divider.vhd 2024/05/20.19:36:35 P.20131013
+EN work/division 1716217634 FL C:/Users/Admin/Desktop/ALU/Divider.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/division/Behavioral 1716217635 \
+      FL C:/Users/Admin/Desktop/ALU/Divider.vhd EN work/division 1716217634
+FL C:/Users/Admin/Desktop/ALU/fdf.vhd 2024/05/20.18:20:21 P.20131013
+EN work/Multiplier_8bit 1716217632 FL C:/Users/Admin/Desktop/ALU/fdf.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/Multiplier_8bit/Behavioral 1716217633 \
+      FL C:/Users/Admin/Desktop/ALU/fdf.vhd EN work/Multiplier_8bit 1716217632 \
+      CP full_adder_8bit
+FL C:/Users/Admin/Desktop/ALU/OR_8bit.vhd 2024/05/20.18:28:18 P.20131013
+EN work/OR_8bit 1716217626 FL C:/Users/Admin/Desktop/ALU/OR_8bit.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/OR_8bit/Structural 1716217627 \
+      FL C:/Users/Admin/Desktop/ALU/OR_8bit.vhd EN work/OR_8bit 1716217626
+FL C:/Users/Admin/Desktop/ALU/sasas.vhd 2024/05/20.18:20:21 P.20131013
+EN work/full_adder_1bit 1716217620 FL C:/Users/Admin/Desktop/ALU/sasas.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/full_adder_1bit/Behavioral 1716217621 \
+      FL C:/Users/Admin/Desktop/ALU/sasas.vhd EN work/full_adder_1bit 1716217620
+FL C:/Users/Admin/Desktop/ALU/sdsd.vhd 2024/05/20.18:20:21 P.20131013
+EN work/AddSub 1716217630 FL C:/Users/Admin/Desktop/ALU/sdsd.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/AddSub/Behavioral 1716217631 \
+      FL C:/Users/Admin/Desktop/ALU/sdsd.vhd EN work/AddSub 1716217630 \
+      CP full_adder_8bit
+FL C:/Users/Admin/Desktop/ALU/XOR_8bit.vhd 2024/05/20.18:28:18 P.20131013
+EN work/XOR_8bit 1716217628 FL C:/Users/Admin/Desktop/ALU/XOR_8bit.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/XOR_8bit/Structural 1716217629 \
+      FL C:/Users/Admin/Desktop/ALU/XOR_8bit.vhd EN work/XOR_8bit 1716217628
+FL C:/Users/vboxuser/Desktop/ise/ALU/ALU.vhd 2024/05/20.05:53:50 P.20131013
+FL C:/Users/vboxuser/Desktop/ise/ALU/AND_8bit.vhd 2024/05/20.03:19:08 P.20131013
+FL C:/Users/vboxuser/Desktop/ise/ALU/dfdf.vhd 2024/05/20.03:28:04 P.20131013
+FL C:/Users/vboxuser/Desktop/ise/ALU/Divider.vhd 2024/05/20.03:29:33 P.20131013
+FL C:/Users/vboxuser/Desktop/ise/ALU/fdf.vhd 2024/05/20.03:29:00 P.20131013
+FL C:/Users/vboxuser/Desktop/ise/ALU/OR_8bit.vhd 2024/05/20.03:23:25 P.20131013
+FL C:/Users/vboxuser/Desktop/ise/ALU/sasas.vhd 2024/05/20.04:03:11 P.20131013
+FL C:/Users/vboxuser/Desktop/ise/ALU/sdsd.vhd 2024/05/20.03:21:59 P.20131013
+FL C:/Users/vboxuser/Desktop/ise/ALU/XOR_8bit.vhd 2024/05/20.03:23:29 P.20131013

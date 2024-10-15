@@ -1,0 +1,8 @@
+vhdl work "\\vboxsvr\my_xilinx_project\A09\Adder4bit.vhd"
+vhdl work "\\vboxsvr\my_xilinx_project\A09\xor123.vhd"
+vhdl work "\\vboxsvr\my_xilinx_project\A09\out8bit.vhd"
+vhdl work "\\vboxsvr\my_xilinx_project\A09\multiplier.vhd"
+vhdl work "\\vboxsvr\my_xilinx_project\A09\divider.vhd"
+vhdl work "\\vboxsvr\my_xilinx_project\A09\and8bit.vhd"
+vhdl work "\\vboxsvr\my_xilinx_project\A09\adder_sub.vhd"
+vhdl work "\\vboxsvr\my_xilinx_project\A09\alu.vhd"

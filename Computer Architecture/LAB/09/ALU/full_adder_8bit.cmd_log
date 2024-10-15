@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/Users/vboxuser/Desktop/ise/ALU/full_adder_8bit.xst" -ofn "C:/Users/vboxuser/Desktop/ise/ALU/full_adder_8bit.syr" 

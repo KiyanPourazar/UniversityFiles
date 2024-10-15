@@ -1,0 +1,44 @@
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design ALU.ngc ...
+WARNING:NetListWriters:298 - No output is written to ALU.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus F4/FA/c_temp<5 : 0> on block ALU is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus F6/Madd_EAQ_8_4_add0002_Madd_cy<2 : 0>
+   on block ALU is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus F6/Madd_EAQ_8_4_add0003_Madd_cy<2 : 0>
+   on block ALU is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus F6/Madd_EAQ_8_4_add0004_Madd_cy<3 : 0>
+   on block ALU is not reconstructed, because there are some missing bus
+   signals.
+  finished :Prep
+Writing EDIF netlist file ALU.edif ...
+ngc2edif: Total memory usage is 78908 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design ALU.ngc ...
+WARNING:NetListWriters:298 - No output is written to ALU.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus F4/FA/c_temp<5 : 0> on block ALU is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus F6/Madd_EAQ_8_4_add0002_Madd_cy<2 : 0>
+   on block ALU is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus F6/Madd_EAQ_8_4_add0003_Madd_cy<2 : 0>
+   on block ALU is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus F6/Madd_EAQ_8_4_add0004_Madd_cy<3 : 0>
+   on block ALU is not reconstructed, because there are some missing bus
+   signals.
+  finished :Prep
+Writing EDIF netlist file ALU.edif ...
+ngc2edif: Total memory usage is 79356 kilobytes
+

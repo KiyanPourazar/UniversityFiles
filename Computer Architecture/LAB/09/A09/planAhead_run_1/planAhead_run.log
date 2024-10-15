@@ -1,0 +1,148 @@
+
+****** PlanAhead v14.7 (64-bit)
+  **** Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+    ** Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
+
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Device 21-36] Loading parts and site information from C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+INFO: [Common 17-81] Feature available: PartialReconfiguration
+source C:/Users/Admin/Desktop/A09/pa.fromNetlist.tcl
+# create_project -name A09 -dir "C:/Users/Admin/Desktop/A09/planAhead_run_1" -part xc3s400pq208-5
+# set_property design_mode GateLvl [get_property srcset [current_run -impl]]
+# set_property edif_top_file "C:/Users/Admin/Desktop/A09/alu_top.ngc" [ get_property srcset [ current_run ] ]
+# add_files -norecurse { {C:/Users/Admin/Desktop/A09} }
+# set_param project.pinAheadLayout  yes
+# set_property target_constrs_file "alu_top.ucf" [current_fileset -constrset]
+Adding file 'C:/Users/Admin/Desktop/A09/alu_top.ucf' to fileset 'constrs_1'
+# add_files [list {alu_top.ucf}] -fileset [get_property constrset [current_run]]
+# link_design
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+Design is defaulting to project part: xc3s400pq208-5
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design alu_top.ngc ...
+WARNING:NetListWriters:298 - No output is written to alu_top.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus alu12/div/Madd_EAQ_7_4_add0000_lut<3 :
+   0> on block alu_top is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus alu12/div/Madd_EAQ_8_4_add0002_Madd_cy<2
+   : 0> on block alu_top is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus alu12/div/Madd_EAQ_8_4_add0003_Madd_cy<2
+   : 0> on block alu_top is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus alu12/div/Madd_EAQ_8_4_add0004_Madd_cy<2
+   : 0> on block alu_top is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus alu12/multiplier1/ADHD2/Madd_result_cy<3
+   : 1> on block alu_top is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus alu12/multiplier1/S1<3 : 1> on block
+   alu_top is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus alu12/out5<7 : 1> on block alu_top is
+   not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file alu_top.edif ...
+ngc2edif: Total memory usage is 79612 kilobytes
+
+Parsing EDIF File [./planAhead_run_1/A09.data/cache/alu_top_ngc_zx.edif]
+Finished Parsing EDIF File [./planAhead_run_1/A09.data/cache/alu_top_ngc_zx.edif]
+INFO: [Designutils 20-910] Reading macro library C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3/hd_int_macros.edn
+Parsing EDIF File [C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3/hd_int_macros.edn]
+Finished Parsing EDIF File [C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3/hd_int_macros.edn]
+Loading clock regions from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3/spartan3/xc3s400/ClockRegion.xml
+Loading clock buffers from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3/spartan3/xc3s400/ClockBuffers.xml
+Loading package from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3/spartan3/xc3s400/pq208/Package.xml
+Loading io standards from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3/IOStandards.xml
+INFO: [Device 21-19] Loading pkg sso from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3/spartan3/xc3s400/pq208/SSORules.xml
+Loading list of drcs for the architecture : C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3/drc.xml
+INFO: [Timing 38-77] Reading timing library C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3/spartan3/spartan3-5.lib.
+INFO: [Timing 38-34] Done reading timing library C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3/spartan3/spartan3-5.lib.
+Parsing UCF File [C:/Users/Admin/Desktop/A09/alu_top.ucf]
+Finished Parsing UCF File [C:/Users/Admin/Desktop/A09/alu_top.ucf]
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Phase 0 | Netlist Checksum: 537cc0dd
+startgroup
+set_property package_pin P183 [get_ports {a[7]}]
+endgroup
+startgroup
+set_property package_pin P182 [get_ports {a[6]}]
+endgroup
+startgroup
+set_property package_pin P181 [get_ports {a[5]}]
+endgroup
+startgroup
+set_property package_pin P180 [get_ports {a[4]}]
+endgroup
+startgroup
+set_property package_pin P178 [get_ports {a[3]}]
+endgroup
+startgroup
+set_property package_pin P176 [get_ports {a[2]}]
+endgroup
+startgroup
+set_property package_pin P175 [get_ports {a[1]}]
+endgroup
+startgroup
+set_property package_pin P172 [get_ports {a[0]}]
+endgroup
+startgroup
+set_property package_pin P171 [get_ports {b[3]}]
+endgroup
+startgroup
+set_property package_pin P169 [get_ports {b[2]}]
+endgroup
+startgroup
+set_property package_pin P168 [get_ports {b[1]}]
+endgroup
+startgroup
+set_property package_pin P167 [get_ports {b[0]}]
+endgroup
+startgroup
+set_property package_pin P165 [get_ports {sel[2]}]
+endgroup
+startgroup
+set_property package_pin P162 [get_ports {sel[1]}]
+endgroup
+startgroup
+set_property package_pin P161 [get_ports {sel[0]}]
+endgroup
+startgroup
+set_property package_pin P42 [get_ports {o[7]}]
+endgroup
+startgroup
+set_property package_pin P43 [get_ports {o[6]}]
+endgroup
+startgroup
+set_property package_pin P44 [get_ports {o[5]}]
+endgroup
+startgroup
+set_property package_pin P45 [get_ports {o[4]}]
+endgroup
+startgroup
+set_property package_pin P46 [get_ports {o[3]}]
+endgroup
+startgroup
+set_property package_pin P48 [get_ports {o[2]}]
+endgroup
+startgroup
+set_property package_pin P50 [get_ports {o[1]}]
+endgroup
+startgroup
+set_property package_pin P51 [get_ports {o[0]}]
+endgroup
+save_constraints
+exit
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Mon May 20 19:31:00 2024...
+INFO: [Common 17-83] Releasing license: PlanAhead

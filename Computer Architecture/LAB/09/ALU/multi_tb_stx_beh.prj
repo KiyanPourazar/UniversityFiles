@@ -1,0 +1,4 @@
+vhdl isim_temp "sasas.vhd"
+vhdl isim_temp "dfdf.vhd"
+vhdl isim_temp "fdf.vhd"
+vhdl isim_temp "multi_tb.vhd"

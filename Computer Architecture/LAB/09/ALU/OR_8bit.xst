@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/vboxuser/Desktop/ise/ALU/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/vboxuser/Desktop/ise/ALU/xst"
+elaborate
+-ifn OR_8bit.prj
+-ifmt mixed

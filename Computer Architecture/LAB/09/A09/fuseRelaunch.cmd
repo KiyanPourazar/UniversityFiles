@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/Admin/Desktop/A09/tb_isim_beh.exe" -prj "C:/Users/Admin/Desktop/A09/tb_beh.prj" "work.tb" 

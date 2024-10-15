@@ -1,0 +1,8 @@
+work	"Adder4bit.vhd"
+work	"adder_sub.vhd"
+work	"alu.vhd"
+work	"and8bit.vhd"
+work	"divider.vhd"
+work	"multiplier.vhd"
+work	"out8bit.vhd"
+work	"xor123.vhd"

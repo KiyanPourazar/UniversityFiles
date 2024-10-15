@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "Z:/A09/alu.xst" -ofn "Z:/A09/alu.syr" 
+xst -intstyle ise -ifn "Z:/A09/alu.xst" -ofn "Z:/A09/alu.syr" 

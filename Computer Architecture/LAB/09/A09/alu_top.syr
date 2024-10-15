@@ -1,0 +1,470 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.06 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.06 secs
+ 
+--> Reading design: alu_top.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "alu_top.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "alu_top"
+Output Format                      : NGC
+Target Device                      : xc3s400-5-pq208
+
+---- Source Options
+Top Module Name                    : alu_top
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 8
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/Admin/Desktop/A09/Adder4bit.vhd" in Library work.
+Architecture behavioral of Entity adder4bit is up to date.
+Compiling vhdl file "C:/Users/Admin/Desktop/A09/and8bit.vhd" in Library work.
+Architecture behavioral of Entity and8bit is up to date.
+Compiling vhdl file "C:/Users/Admin/Desktop/A09/out8bit.vhd" in Library work.
+Architecture behavioral of Entity or8bit is up to date.
+Compiling vhdl file "C:/Users/Admin/Desktop/A09/xor123.vhd" in Library work.
+Architecture behavioral of Entity xor123 is up to date.
+Compiling vhdl file "C:/Users/Admin/Desktop/A09/adder_sub.vhd" in Library work.
+Architecture rtl of Entity adder_sub is up to date.
+Compiling vhdl file "C:/Users/Admin/Desktop/A09/multiplier.vhd" in Library work.
+Architecture behavioral of Entity multiplier is up to date.
+Compiling vhdl file "C:/Users/Admin/Desktop/A09/divider.vhd" in Library work.
+Architecture behavioral of Entity division is up to date.
+Compiling vhdl file "C:/Users/Admin/Desktop/A09/alu.vhd" in Library work.
+Architecture behavioral of Entity alu is up to date.
+Compiling vhdl file "C:/Users/Admin/Desktop/A09/alu_top.vhd" in Library work.
+Architecture behavioral of Entity alu_top is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <alu_top> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <alu> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <and8bit> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <or8bit> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <xor123> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <adder_sub> in library <work> (architecture <rtl>).
+
+Analyzing hierarchy for entity <multiplier> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <division> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Adder4bit> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <alu_top> in library <work> (Architecture <behavioral>).
+Entity <alu_top> analyzed. Unit <alu_top> generated.
+
+Analyzing Entity <alu> in library <work> (Architecture <behavioral>).
+INFO:Xst:1561 - "C:/Users/Admin/Desktop/A09/alu.vhd" line 113: Mux is complete : default of case is discarded
+Entity <alu> analyzed. Unit <alu> generated.
+
+Analyzing Entity <and8bit> in library <work> (Architecture <behavioral>).
+Entity <and8bit> analyzed. Unit <and8bit> generated.
+
+Analyzing Entity <or8bit> in library <work> (Architecture <behavioral>).
+Entity <or8bit> analyzed. Unit <or8bit> generated.
+
+Analyzing Entity <xor123> in library <work> (Architecture <behavioral>).
+Entity <xor123> analyzed. Unit <xor123> generated.
+
+Analyzing Entity <adder_sub> in library <work> (Architecture <rtl>).
+Entity <adder_sub> analyzed. Unit <adder_sub> generated.
+
+Analyzing Entity <multiplier> in library <work> (Architecture <behavioral>).
+Entity <multiplier> analyzed. Unit <multiplier> generated.
+
+Analyzing Entity <Adder4bit> in library <work> (Architecture <behavioral>).
+Entity <Adder4bit> analyzed. Unit <Adder4bit> generated.
+
+Analyzing Entity <division> in library <work> (Architecture <behavioral>).
+Entity <division> analyzed. Unit <division> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <and8bit>.
+    Related source file is "C:/Users/Admin/Desktop/A09/and8bit.vhd".
+Unit <and8bit> synthesized.
+
+
+Synthesizing Unit <or8bit>.
+    Related source file is "C:/Users/Admin/Desktop/A09/out8bit.vhd".
+Unit <or8bit> synthesized.
+
+
+Synthesizing Unit <xor123>.
+    Related source file is "C:/Users/Admin/Desktop/A09/xor123.vhd".
+    Found 8-bit xor2 for signal <c>.
+Unit <xor123> synthesized.
+
+
+Synthesizing Unit <adder_sub>.
+    Related source file is "C:/Users/Admin/Desktop/A09/adder_sub.vhd".
+    Found 9-bit adder carry in for signal <result>.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+Unit <adder_sub> synthesized.
+
+
+Synthesizing Unit <division>.
+    Related source file is "C:/Users/Admin/Desktop/A09/divider.vhd".
+    Found 4-bit tristate buffer for signal <Q>.
+    Found 4-bit tristate buffer for signal <R>.
+    Found 4-bit adder for signal <EAQ_7_4$add0000> created at line 33.
+    Found 4-bit adder for signal <EAQ_7_4$add0001> created at line 49.
+    Found 4-bit adder for signal <EAQ_7_4$add0002> created at line 49.
+    Found 4-bit adder for signal <EAQ_7_4$add0003> created at line 49.
+    Found 4-bit adder for signal <EAQ_7_4$add0004> created at line 49.
+    Found 5-bit adder for signal <EAQ_8_4$add0000> created at line 30.
+    Found 5-bit adder for signal <EAQ_8_4$add0001> created at line 46.
+    Found 5-bit adder for signal <EAQ_8_4$add0002> created at line 46.
+    Found 5-bit adder for signal <EAQ_8_4$add0003> created at line 46.
+    Found 5-bit adder for signal <EAQ_8_4$add0004> created at line 46.
+    Found 5-bit adder for signal <EAQ_8_4$addsub0000> created at line 30.
+    Found 5-bit adder for signal <EAQ_8_4$addsub0001> created at line 46.
+    Found 5-bit adder for signal <EAQ_8_4$addsub0002> created at line 46.
+    Found 5-bit adder for signal <EAQ_8_4$addsub0003> created at line 46.
+    Found 5-bit adder for signal <EAQ_8_4$addsub0004> created at line 46.
+    Summary:
+	inferred  15 Adder/Subtractor(s).
+	inferred   8 Tristate(s).
+Unit <division> synthesized.
+
+
+Synthesizing Unit <Adder4bit>.
+    Related source file is "C:/Users/Admin/Desktop/A09/Adder4bit.vhd".
+    Found 5-bit adder carry in for signal <result>.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+Unit <Adder4bit> synthesized.
+
+
+Synthesizing Unit <multiplier>.
+    Related source file is "C:/Users/Admin/Desktop/A09/multiplier.vhd".
+Unit <multiplier> synthesized.
+
+
+Synthesizing Unit <alu>.
+    Related source file is "C:/Users/Admin/Desktop/A09/alu.vhd".
+WARNING:Xst:646 - Signal <overflow> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+    Found 8-bit 8-to-1 multiplexer for signal <out_out>.
+    Summary:
+	inferred   8 Multiplexer(s).
+Unit <alu> synthesized.
+
+
+Synthesizing Unit <alu_top>.
+    Related source file is "C:/Users/Admin/Desktop/A09/alu_top.vhd".
+Unit <alu_top> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 20
+ 4-bit adder                                           : 5
+ 5-bit adder                                           : 10
+ 5-bit adder carry in                                  : 3
+ 9-bit adder carry in                                  : 2
+# Multiplexers                                         : 1
+ 8-bit 8-to-1 multiplexer                              : 1
+# Tristates                                            : 2
+ 4-bit tristate buffer                                 : 2
+# Xors                                                 : 1
+ 8-bit xor2                                            : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 19
+ 4-bit adder                                           : 5
+ 5-bit adder                                           : 8
+ 5-bit adder carry in                                  : 4
+ 9-bit adder carry in                                  : 2
+# Multiplexers                                         : 1
+ 8-bit 8-to-1 multiplexer                              : 1
+# Xors                                                 : 1
+ 8-bit xor2                                            : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:2042 - Unit division: 8 internal tristates are replaced by logic (pull-up yes): Q<0>, Q<1>, Q<2>, Q<3>, R<0>, R<1>, R<2>, R<3>.
+
+Optimizing unit <alu_top> ...
+
+Optimizing unit <division> ...
+
+Optimizing unit <multiplier> ...
+
+Optimizing unit <alu> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block alu_top, actual ratio is 3.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : alu_top.ngr
+Top Level Output File Name         : alu_top
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 23
+
+Cell Usage :
+# BELS                             : 207
+#      GND                         : 1
+#      INV                         : 8
+#      LUT1                        : 4
+#      LUT2                        : 19
+#      LUT3                        : 37
+#      LUT4                        : 78
+#      MUXCY                       : 14
+#      MUXF5                       : 25
+#      MUXF6                       : 4
+#      VCC                         : 1
+#      XORCY                       : 16
+# IO Buffers                       : 23
+#      IBUF                        : 15
+#      OBUF                        : 8
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s400pq208-5 
+
+ Number of Slices:                       79  out of   3584     2%  
+ Number of 4 input LUTs:                146  out of   7168     2%  
+ Number of IOs:                          23
+ Number of bonded IOBs:                  23  out of    141    16%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: 35.255ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 200966 / 8
+-------------------------------------------------------------------------
+Delay:               35.255ns (Levels of Logic = 26)
+  Source:            b<0> (PAD)
+  Destination:       o<3> (PAD)
+
+  Data Path: b<0> to o<3>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            39   0.715   1.668  b_0_IBUF (b_0_IBUF)
+     LUT4:I2->O            5   0.479   0.842  alu12/div/Madd_EAQ_8_4_add0001_Madd_cy<1>11 (alu12/div/Madd_EAQ_8_4_add0001_Madd_cy<1>)
+     LUT3:I2->O            1   0.479   0.740  alu12/div/EAQ_0_mux000189 (alu12/div/EAQ_0_mux000189)
+     LUT4:I2->O            2   0.479   0.804  alu12/div/EAQ_0_mux000197_SW0 (N74)
+     LUT3:I2->O            5   0.479   0.953  alu12/div/EAQ_0_mux000197 (alu12/div/EAQ_0_mux0001)
+     LUT3:I1->O            5   0.479   1.078  alu12/div/EAQ_4_mux00011 (alu12/div/EAQ_4_mux0001)
+     LUT4:I0->O            1   0.479   0.740  alu12/div/Madd_EAQ_8_4_add0002_Madd_cy<2>1_SW2 (N46)
+     LUT3:I2->O            4   0.479   0.838  alu12/div/Madd_EAQ_8_4_add0002_Madd_cy<2>1 (alu12/div/Madd_EAQ_8_4_add0002_Madd_cy<2>)
+     LUT4:I2->O            1   0.479   0.000  alu12/div/EAQ_0_mux0003591 (alu12/div/EAQ_0_mux000359)
+     MUXF5:I1->O           5   0.314   0.953  alu12/div/EAQ_0_mux000359_f5 (alu12/div/EAQ_0_mux0003)
+     LUT3:I1->O            5   0.479   1.078  alu12/div/EAQ_4_mux00031 (alu12/div/EAQ_4_mux0003)
+     LUT4:I0->O            1   0.479   0.740  alu12/div/Madd_EAQ_8_4_add0003_Madd_cy<2>1_SW2 (N44)
+     LUT3:I2->O            2   0.479   0.804  alu12/div/Madd_EAQ_8_4_add0003_Madd_cy<2>1 (alu12/div/Madd_EAQ_8_4_add0003_Madd_cy<2>)
+     LUT4:I2->O            5   0.479   0.953  alu12/div/EAQ_0_mux000559 (alu12/div/EAQ_0_mux0005)
+     LUT3:I1->O            5   0.479   0.806  alu12/div/EAQ_4_mux00051 (alu12/div/EAQ_4_mux0005)
+     LUT4:I3->O            2   0.479   0.915  alu12/div/Madd_EAQ_8_4_add0004_Madd_cy<2>1_SW0 (N68)
+     LUT3:I1->O            1   0.479   0.740  alu12/div/Madd_EAQ_8_4_add0004_Madd_cy<2>1 (alu12/div/Madd_EAQ_8_4_add0004_Madd_cy<2>)
+     LUT4:I2->O            6   0.479   0.912  alu12/div/EAQ_0_mux0007 (alu12/div/EAQ_0_mux0007)
+     LUT4:I2->O            1   0.479   0.000  alu12/div/R<3>LogicTrst_SW11 (alu12/div/R<3>LogicTrst_SW1)
+     MUXF5:I1->O           1   0.314   0.976  alu12/div/R<3>LogicTrst_SW1_f5 (N56)
+     LUT4:I0->O            1   0.479   0.740  alu12/div/R<3>LogicTrst_SW0 (N78)
+     LUT4:I2->O            1   0.479   0.851  alu12/div/R<3>LogicTrst (alu12/out6<3>)
+     LUT2:I1->O            1   0.479   0.000  alu12/Mmux_out_out_431 (alu12/Mmux_out_out_43)
+     MUXF5:I1->O           1   0.314   0.000  alu12/Mmux_out_out_3_f5_2 (alu12/Mmux_out_out_3_f53)
+     MUXF6:I1->O           1   0.298   0.681  alu12/Mmux_out_out_2_f6_2 (o_3_OBUF)
+     OBUF:I->O                 4.909          o_3_OBUF (o<3>)
+    ----------------------------------------
+    Total                     35.255ns (16.444ns logic, 18.811ns route)
+                                       (46.6% logic, 53.4% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 4.00 secs
+Total CPU time to Xst completion: 3.76 secs
+ 
+--> 
+
+Total memory usage is 261088 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    2 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

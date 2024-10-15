@@ -1,0 +1,2 @@
+vhdl work "Adder4bit.vhd"
+vhdl work "multiplier.vhd"
